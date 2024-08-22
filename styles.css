@@ -1,7 +1,7 @@
 /* Font for the OPINION and GUEST ESSAY labels */
 @font-face {
     font-family: 'label';
-    src: url('https://github.com/ananmaysharan/opinion-generator/raw/main/assets/label.woff2') format('woff2');
+    src: url('assets/label.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Font for the Title */
 @font-face {
     font-family: 'title';
-    src: url('https://github.com/ananmaysharan/opinion-generator/raw/main/assets/title.woff2') format('woff2');
+    src: url('assets/title.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 /* Font for the Date */
 @font-face {
     font-family: 'date';
-    src: url('https://github.com/ananmaysharan/opinion-generator/raw/main/assets/date.woff2') format('woff2');
+    src: url('assets/date.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }

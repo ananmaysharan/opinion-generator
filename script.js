@@ -32,7 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
         range.collapse(true);
         selection.removeAllRanges();
         selection.addRange(range);
+        document.title = 'Opinion | ' + headlineText.textContent;
     });
+
+
 
     // Download as image functionality
     document.getElementById('download-button').addEventListener('click', () => {
