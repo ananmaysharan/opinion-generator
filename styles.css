@@ -1,0 +1,120 @@
+/* Font for the OPINION and GUEST ESSAY labels */
+@font-face {
+    font-family: 'label';
+    src: url('/assets/label.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Font for the Title */
+@font-face {
+    font-family: 'title';
+    src: url('/assets/title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Font for the Date */
+@font-face {
+    font-family: 'date';
+    src: url('/assets/date.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#content-container {
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+#headline-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.opinion-label {
+    font-size: 16px;
+    color: #D0021B;
+    font-weight: 700;
+    -webkit-letter-spacing: 0.07em;
+    -moz-letter-spacing: 0.07em;
+    -ms-letter-spacing: 0.07em;
+    letter-spacing: 0.07em;
+    font-family: 'label', 'Lora', serif;
+    text-transform: uppercase;
+}
+
+.guest-essay-label {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 700;
+    -webkit-letter-spacing: 0.07em;
+    -moz-letter-spacing: 0.07em;
+    -ms-letter-spacing: 0.07em;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-family: 'label', 'Lora', serif;
+
+}
+
+#headline-text {
+    font-size: 64px;
+    font-weight: bold;
+    color: #121212;
+    font-family: 'title', 'Lora', serif;
+    min-height: 64px;
+
+}
+
+#headline-text::before {
+        content: '';
+        display: block;
+        margin: 0.75rem auto 1.75rem;
+        background-color: #EBEBEB;
+        width: 4.5rem;
+        height: 1px;
+}
+
+
+#date {
+    margin-top: 20px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 500;
+    color: #363636;
+    margin-bottom: 1rem;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-family: 'date', 'Helvetica', sans-serif;
+
+}
+
+#download-button {
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #DFDFDF;
+    color: #121212;
+    box-shadow: none;
+    border-radius: 10em;
+    margin: 1em;
+}
+
+#download-button:hover {
+    background: #EBEBEB;
+    cursor: pointer;
+}
+
+#logo {
+    width: 500px;
+    padding: 1em;
+}
